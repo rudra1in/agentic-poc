@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "dsa_coach": "./agents/graph.py:graph"
+  },
+  "env": ".env"
+}

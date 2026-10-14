@@ -1,0 +1,22 @@
+# Core
+langgraph>=0.2.0
+langchain-core>=0.3.0
+
+# LLM backends (choose one or both)
+ollama>=0.3.0           # local Ollama (default)
+google-genai>=0.3.0     # Gemini (set LLM_BACKEND=gemini)
+
+# Web UI
+streamlit>=1.35.0
+
+# Utilities
+python-dotenv>=1.0.0
+
+# ── Optional ─────────────────────────────────────────────────────────────────
+# RAG backends (only if RAG_BACKEND=pgvector / chroma). sentence-transformers pulls in torch (large).
+# psycopg2-binary>=2.9
+# chromadb>=0.5.0
+# sentence-transformers>=3.0.0
+
+# LangGraph Studio / dev server (`langgraph dev`)
+# langgraph-cli[inmem]>=0.2.0
